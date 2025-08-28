@@ -1,0 +1,22 @@
+﻿/**
+ *   Løsning til eksamen i GrProg (i C), august 2024, oppgave 1.
+ *
+ *   @file     EX_S24_1.TXT
+ *   @author   Frode Haug, NTNU
+ */
+
+
+
+A)  Svar:   d g N k
+            A g i o s   N i k
+            k i N   s o i g
+            G A N A G A N
+            o k r k
+
+
+
+B)  Svar:   Bacchus: 85x98    Narcissus: 95x113    Musicians: 119x92
+            1 0 0
+            0 1 1
+            Music Player 86x6
+            A

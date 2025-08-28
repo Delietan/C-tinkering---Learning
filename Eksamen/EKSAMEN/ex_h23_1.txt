@@ -1,0 +1,23 @@
+﻿/**
+ *   Løsning til eksamen i GrProg (i C), desember 2023, oppgave 1.
+ *
+ *   @file     EX_H23_1.TXT
+ *   @author   Frode Haug, NTNU
+ */
+
+
+
+A)  Svar:   N O A
+            L D B M G M
+            I N G
+            S T E
+            MING TING
+
+
+
+B)  Svar:   Frantzen, Frank (53) og Mentzoni, Marit (22)
+            1 0 1
+            0 1
+            Mentzoni, Ida-Jada (42)
+            J
+

@@ -1,0 +1,23 @@
+﻿/**
+ *   Løsning til eksamen i GrProg (i C), august 2025, oppgave 1.
+ *
+ *   @file     EX_S25_1.TXT
+ *   @author   Frode Haug, NTNU
+ */
+
+
+
+A)  Svar:   a n r s
+            r L B h r s
+            Kragero
+            a R A K M o n L
+            r r r r g B - s
+
+
+
+
+B)  Svar:   Oxford-18  Luton-21
+            0 1 1
+            Jada
+            Watford-18  Tottenham-19
+            7 4

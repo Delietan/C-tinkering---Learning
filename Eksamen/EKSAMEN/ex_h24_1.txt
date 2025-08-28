@@ -1,0 +1,23 @@
+﻿/**
+ *   Løsning til eksamen i GrProg (i C), desember 2024, oppgave 1.
+ *
+ *   @file     EX_H24_1.TXT
+ *   @author   Frode Haug, NTNU
+ */
+
+
+
+A)  Svar:   1
+            1 2 4 8 16 32 64
+            k r r t d n
+            e n S
+            MjolregSe-dl
+
+
+
+
+B)  Svar:   Morgedal-433  Brokke-558
+            Brokke-558  Valle-312
+            A T T T
+            1 0 1
+            O q t i g f c n
