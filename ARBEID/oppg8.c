@@ -1,19 +1,19 @@
 /**
- *  @AUTHOR : MARTINUS NORDGÅRD
- *  @TITTEL : OPPGAVE 8
+ *  @file : MARTINUS NORDGÅRD
+ *  @author : OPPGAVE 8
  * 
  * 
  */
 
-#include <stdio.h> // for prinf()
+#include <stdio.h>          // for prinf()
 
 /**
  * Hovedprogrammet
  */
+const int ANTALL = 17;          ///< Consten 'antall'
 
 int main () 
 {
-    const int ANTALL = 17;
 
     int tall1 = 5,
         tall2 = 8,

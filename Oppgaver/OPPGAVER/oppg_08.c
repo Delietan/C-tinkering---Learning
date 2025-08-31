@@ -1,5 +1,5 @@
 /**
- *   Løsningsforslag til oppgave nr 8.
+ *   Lï¿½sningsforslag til oppgave nr 8.
  *
  *   @file	  OPPG_08.C
  *   @author  Frode Haug, NTNU
@@ -22,10 +22,10 @@ int main()  {                     //  Initierer variable:
     svar = tall1 * tall2 - tall3;      //  Begge disse regnestykkene
     printf("Svaret er: %i\n", svar);  //    gir det samme ssvaret,
                                        //    da '*' og '/' evalueres
-    svar = (tall1 * tall2) - tall3;    //    før '+' og '-':
+    svar = (tall1 * tall2) - tall3;    //    fï¿½r '+' og '-':
     printf("Svaret er: %i\n", svar);
                                        //  Men, her "tvinges" '-' til
-    svar = tall1 * (tall2 - tall3);    //    å bli utført først:
+    svar = tall1 * (tall2 - tall3);    //    ï¿½ bli utfï¿½rt fï¿½rst:
     printf("Svaret er: %i\n", svar);
 
     svar = (tall1 * (tall2 - tall3)) / tall1 * ANTALL;
@@ -39,11 +39,11 @@ int main()  {                     //  Initierer variable:
 
     svar /= tall1 + tall3;
     printf("Svaret er: %i\n", svar);
-                                         //  Så lenge 'tall++'  og '++tall'
-    printf("Tall1 FOR:%i\n", tall1);     //    står alene, så spiller det
-    tall1++;   ++tall1;  tall1++;        //    ingen rolle hvor '++' står.
+                                         //  Sï¿½ lenge 'tall++'  og '++tall'
+    printf("Tall1 FOR:%i\n", tall1);     //    stï¿½r alene, sï¿½ spiller det
+    tall1++;   ++tall1;  tall1++;        //    ingen rolle hvor '++' stï¿½r.
     printf("Tall1 ETTER:%i\n", tall1);   //    Ellers ville slik '++' / '--'
-                                         //    bli utført før eller etter at
+                                         //    bli utfï¿½rt fï¿½r eller etter at
     printf("Tall2 FOR:%i\n", tall2);     //    resten av uttrykket evalueres.
     tall2--;   --tall2;  --tall2;  tall2--;
     printf("Tall2 ETTER:%i\n", tall2);
