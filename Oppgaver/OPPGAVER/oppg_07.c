@@ -1,5 +1,5 @@
 /**
- *   Løsningsforslag til oppgave nr 7.
+ *   Lï¿½sningsforslag til oppgave nr 7.
  *
  *   @file	  OPPG_07.C
  *   @author	Frode Haug, NTNU
@@ -24,7 +24,7 @@ int main()  {
     printf("%i + %i + %i = %i\n", tall1, tall2, tall3, sum);
 
                                   //  Beregner og skriver gj.snitt av heltall:
-    gjsnittSum = sum / 3.0;       //   (deler med 3.0 så svaret blir en float)
+    gjsnittSum = sum / 3.0;       //   (deler med 3.0 sï¿½ svaret blir en float)
     printf("Gjennomsnittet av disse tallene: %f\n", gjsnittSum);
 
                                   //  Beregner og skriver kvadratsum:
@@ -32,12 +32,12 @@ int main()  {
     printf("Summen av deres kvadrater: %i\n", kvadratSum);
 
                                   //  Beregner og skriver gj.snitt av kv.sum:
-    gjsnittKvadrat = kvadratSum / 3.0;   //  3.0 for å få float-regnestykke.
+    gjsnittKvadrat = kvadratSum / 3.0;   //  3.0 for ï¿½ fï¿½ float-regnestykke.
     printf("Gjennomsnittet av deres kvadrater: %f\n", gjsnittKvadrat);
 
                                  //  Beregner og skriver sj.snitt av 2x float:
-                                 //   Så lenge regnestykket består av float,
-                                 //   så holder det å dele med 2 (int)
+                                 //   Sï¿½ lenge regnestykket bestï¿½r av float,
+                                 //   sï¿½ holder det ï¿½ dele med 2 (int)
                                  //   - svaret blir jo en float.
     printf("Gjennomsnittet av de to float'ene: %f\n",  (flyt1 + flyt2) / 2);
 
