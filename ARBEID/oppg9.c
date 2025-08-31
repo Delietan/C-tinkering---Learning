@@ -33,6 +33,6 @@
         printf("TEST4: %i\n\n", totaltSekunder / 60 % 60);
 
 
-        printf("412304 sekunder er %i timer, %i minutter og %i sekunder\n\n", timer, minutter, sekunder);
+        printf("%i sekunder er %i timer, %i minutter og %i sekunder\n\n", totaltSekunder, timer, minutter, sekunder);
 
   }
