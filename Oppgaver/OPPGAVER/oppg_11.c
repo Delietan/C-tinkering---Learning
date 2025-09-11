@@ -1,5 +1,5 @@
 /**
- *   Løsningsforslag til oppgave nr 11.
+ *   Lï¿½sningsforslag til oppgave nr 11.
  *
  *   @file	  OPPG_11.C
  *   @author  Frode Haug, NTNU
@@ -26,12 +26,12 @@ int main()  {                     //  Definerer noen uinitierte og initierte
     tall[2] /= 2;                 //  Halverer verdien:
     printf("tall[2] = %i\n", tall[2]);
 
-                                  //  Gjør to stk summeringer:
+                                  //  Gjï¿½r to stk summeringer:
     tall[3] = tall2[0] + tall2[1] + tall2[2] + tall2[3];
     tall[4] = tall2[4] + tall2[5] + tall2[6];   //  Skriver svaret:
     printf("tall[3] og tall[4] er:  %i %i\n", tall[3], tall[4]);
 
-                                  //  Øker variabel fire enkeltganger:
+                                  //  ï¿½ker variabel fire enkeltganger:
     tall[2]++;  tall[2]++;  tall[2]++;  tall[2]++;
     printf("tall[2] = %i\n", tall[2]);   //  Skriver resultatet.
 
