@@ -29,7 +29,6 @@ int main()
 
     printf("\nTekst: %s", tekst);
 
-
     printf("\nTekst fra start: %s", tekstTest);
 
     return 0;
