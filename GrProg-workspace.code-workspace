@@ -4,5 +4,11 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.dbclient-js": "javascript",
+			"*.ejs": "html",
+			"cstdlib": "c"
+		}
+	}
 }
