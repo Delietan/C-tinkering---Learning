@@ -12,8 +12,8 @@
  #include <string.h>            //strcpy
  #include <ctype.h>             //toupper
 
- const int MAXBANER = 18; ///<
- const int STRLEN = 100; ///<
+ const int MAXBANER = 18;       ///< Maksgrense for antall baner
+ const int STRLEN = 100;        ///< Maks strenglengde
 
  /**
   * Hovedprogrammet starter her:
@@ -62,7 +62,7 @@
     valg = toupper(valg);
 
     
-    while (valg != 'Q') {        
+    while (valg != 'Q') {        //Q avslutter programmet
         switch (valg) {
             
             case 'L':
@@ -111,7 +111,8 @@
                 break;
 
             case 'S':
-                //gir brukeres oversikt over alle baner
+
+                //Gir brukeren oversikt over alle baner
                 printf("\n\tDu skrev S - Du har valgt å se alle baner");
                 for (int i = 0; i < antallBaner; i++) {
                     printf("\n\nBane %i:", i+1);
@@ -121,13 +122,13 @@
                     printf("\n\tBeskrivelse: %s", baneBeskrivelse[i]);
                 };
 
-                //utregning av par
+                //Utregning av par
                 sumForPar = 0;
                 for (int i = 0; i < antallBaner; i++) {
                     sumForPar += banePar[i];
                 }
 
-                //printer ut oppsummering på slutten av oversikten
+                //Printer ut oppsummering på slutten av oversikten
                 printf("\n\nAntall baner: %i", antallBaner);
                 printf("\nFor å havne på par brukes %i kast", sumForPar);
                 break;
@@ -137,14 +138,11 @@
                 break;
         }
 
-
-    printf("\n\nMenyvalg: \n\tL Legg til bane\n\tS - Se alle baner\n\tQ - Avslutt");
-    printf("\n\tValg: ");
-    scanf(" %c", &valg);
-    valg = toupper(valg);
+        printf("\n\nMenyvalg: \n\tL - Legg til bane\n\tS - Se alle baner\n\tQ - Avslutt");
+        printf("\n\tValg: ");
+        scanf(" %c", &valg);
+        valg = toupper(valg);
     }
-
     printf("\n\t- Programmet er avsluttet -");
-
     return 0;
   };
