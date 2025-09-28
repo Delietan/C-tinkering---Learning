@@ -1,5 +1,5 @@
 /**
- *   Løsningsforslag til oppgave nr 18.
+ *   Lï¿½sningsforslag til oppgave nr 18.
  *
  *   @file	  OPPG_18.C
  *   @author  Frode Haug, NTNU
@@ -13,17 +13,13 @@
  */
 int main()  {
 
-    for (int i = 1;  i <= 100;  i++)  {  //  Går gjennom alle aktuelle tall:
-
-        printf("%3i - ", i);     //  Tallet skrives høyrejustert på 3 plasser.
-
-        if (i % 2 )              //  Rest = 1, altså oddetall.
+    for (int i = 1;  i <= 100;  i++)  {  //  Gï¿½r gjennom alle aktuelle tall:
+        printf("%3i - ", i);     //  Tallet skrives hï¿½yrejustert pï¿½ 3 plasser.
+        if (i % 2 )              //  Rest = 1, altsï¿½ oddetall.
            printf("Oddetall");
-        else                     //  Ingen rest (0 - null), altså partall.
+        else                     //  Ingen rest (0 - null), altsï¿½ partall.
            printf("Partall ");
-
         printf("  ");            //  2x blanke bort til neste kolonne.
-
         if (i % 5 == 0)          //  For hver femte, skrives linjeskift.
            printf("\n");
     }
